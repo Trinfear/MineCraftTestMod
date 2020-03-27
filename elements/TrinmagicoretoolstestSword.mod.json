@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "trinmagicoretoolstest_sword",
+    "customModelName": "Normal",
+    "name": "Trinmagicoretoolstest Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 7,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 22.0,
+    "usageCount": 1323,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

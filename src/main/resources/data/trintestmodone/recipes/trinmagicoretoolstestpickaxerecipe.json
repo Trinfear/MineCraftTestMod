@@ -1,0 +1,30 @@
+{
+  "group": "trintestmodone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "trintestmodone:trinmagicdusttest"
+    },
+    "1": {
+      "item": "trintestmodone:trinmagicdusttest"
+    },
+    "2": {
+      "item": "trintestmodone:trinmagicdusttest"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "trintestmodone:trinmagicoretoolstestpickaxe",
+    "count": 1
+  }
+}

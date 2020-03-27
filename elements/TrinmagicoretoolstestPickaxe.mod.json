@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "trinmagicoretoolstest_pickaxe",
+    "customModelName": "Normal",
+    "name": "Trinmagicoretoolstest Pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 8,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 8,
+    "damageVsEntity": 2.0,
+    "usageCount": 1323,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "TrinTestSaphireBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinMagicDustTest",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinMagicOreTest",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinMagicDustTestRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinMagicDustTestRightClickedInAir",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinmagicoretoolstestPickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestShovel",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestHoe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestAxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestSwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestShovelRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinmagicoretoolstestHoeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.trintestmodone.trinmagicoretest": "Trin Magic Ore Test",
+      "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
+      "item.trintestmodone.trinmagicdusttest": "Trin Magic Dust Test",
+      "item.trintestmodone.trinmagicoretoolstestpickaxe": "Trinmagicoretoolstest Pickaxe",
+      "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
+      "item.trintestmodone.trinmagicoretoolstesthoe": "Trinmagicoretoolstest Hoe",
+      "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block",
+      "item.trintestmodone.trinmagicoretoolstestsword": "Trinmagicoretoolstest Sword"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "trintestmodone",
+    "modName": "Trin Test MOD One",
+    "version": "1.0.0",
+    "author": "Tony",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "modElementsPackage": "net.mcreator.trintestmodone",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000213314
+}
