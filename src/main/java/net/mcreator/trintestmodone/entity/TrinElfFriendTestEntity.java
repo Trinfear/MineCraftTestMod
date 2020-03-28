@@ -77,7 +77,7 @@ public class TrinElfFriendTestEntity extends TrinTestMODOneElements.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("trintestmodone:textures/elf_huntress.png");
+					return new ResourceLocation("trintestmodone:textures/blood_elf.png");
 				}
 			};
 			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -155,7 +155,10 @@ public class TrinElfFriendTestEntity extends TrinTestMODOneElements.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("itemstack", itemstack);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				TrinElfFriendTestRightClickedOnEntityProcedure.executeProcedure($_dependencies);
 			}
 			return true;

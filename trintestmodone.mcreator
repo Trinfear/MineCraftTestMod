@@ -230,8 +230,20 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -243,6 +255,62 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "TrinNewCraftBlockTestOne",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinTestCraftBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinGUITestOne",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinCloseGUIProcedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinGUITradeProcedureOne",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -261,6 +329,7 @@
       "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
       "item.trintestmodone.trinnpctest": "Trin NPC Test Spawn Egg",
       "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
+      "block.trintestmodone.trinnewcraftblocktestone": "Trin New Craft Block Test One",
       "entity.trintestmodone.trinenemycatgirltest": "Trin Enemy Cat Girl Test",
       "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block"
     }

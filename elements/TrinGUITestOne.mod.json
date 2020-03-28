@@ -1,0 +1,80 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "PressMe",
+          "onClick": {
+            "name": "TrinCloseGUIProcedure"
+          },
+          "width": 140,
+          "height": 40,
+          "name": "PressMe",
+          "x": 360,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 335,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "onSlotChanged": {
+            "name": "TrinGUITradeProcedureOne"
+          },
+          "name": "Slot #1",
+          "x": 335,
+          "y": 142
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "name": "Slot #2",
+          "x": 485,
+          "y": 164
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trinmagicoretoolstest_pickaxe.png",
+          "name": "trinmagicoretoolstest_pickaxe.png",
+          "x": 419,
+          "y": 173
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trinmagicdustitemtest.png",
+          "name": "trinmagicdustitemtest.png",
+          "x": 307,
+          "y": 201
+        }
+      }
+    ]
+  }
+}

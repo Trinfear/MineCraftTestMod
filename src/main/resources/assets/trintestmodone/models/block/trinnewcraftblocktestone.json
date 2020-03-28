@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "trintestmodone:blocks/trinredblockpattern",
+    "up": "trintestmodone:blocks/trinredblocklinkedsquares",
+    "north": "trintestmodone:blocks/trinredblockpattern",
+    "east": "trintestmodone:blocks/trinredblockpattern",
+    "south": "trintestmodone:blocks/trinredblockpattern",
+    "west": "trintestmodone:blocks/trinredblockpattern",
+    "particle": "trintestmodone:blocks/trinredblockpattern"
+  }
+}

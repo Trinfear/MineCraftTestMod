@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Trin Elf Friend Test",
     "mobLabel": "",
-    "mobModelTexture": "elf_huntress.png",
+    "mobModelTexture": "blood_elf.png",
     "mobModelName": "Biped",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
