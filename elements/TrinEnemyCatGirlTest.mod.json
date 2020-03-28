@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "mob",
   "definition": {
-    "mobName": "Trin NPC Test",
+    "mobName": "Trin Enemy Cat Girl Test",
     "mobLabel": "",
-    "mobModelTexture": "slendy.png",
+    "mobModelTexture": "cat_girl.png",
     "mobModelName": "Biped",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 4.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -1,
@@ -45,11 +45,11 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 6,
     "movementSpeed": 0.3,
     "trackingRange": 64,
-    "health": 10,
-    "xpAmount": 100,
+    "health": 18,
+    "xpAmount": 74,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
@@ -59,22 +59,22 @@
     "immuneToFire": false,
     "immuneToArrows": true,
     "immuneToFallDamage": true,
-    "immuneToCactus": true,
+    "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
-    "immuneToPlayer": true,
+    "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:TrinMagicDustTest"
+      "value": "Items.DIAMOND"
     },
     "livingSound": {
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.endermen.scream"
+      "value": "entity.cat.purr"
     },
     "deathSound": {
-      "value": "entity.endermen.death"
+      "value": "entity.cat.purreow"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -84,31 +84,22 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "whenMobIsHurt": {
-      "name": "TrinNPCTestEntityIsHurt"
-    },
-    "onRightClickedOn": {
-      "name": "TrinNPCTestRightClickedOnEntity"
-    },
-    "onMobTickUpdate": {
-      "name": "TrinNPCTestOnEntityTickUpdate"
-    },
     "hasAI": true,
-    "aiBase": "Villager",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"153\" y=\"41\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityCreeper</field><next><block type=\"move_indoors\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"325\" y=\"71\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.4</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"doors_break\"><next><block type=\"move_indoors\"><next><block type=\"wander\"><field name=\"speed\">1.5</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">1.2</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
-      "value": "Blocks.FIRE"
+      "value": ""
     },
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 3,
-    "maxNumberOfMobsPerGroup": 12,
+    "spawningProbability": 6,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 6,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": true
   }
 }

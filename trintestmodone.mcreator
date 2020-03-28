@@ -156,6 +156,93 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "TrinCustomElementTestOne",
+      "type": "code",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "TrinNPCTestRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinNPCTestEntityIsHurt",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinNPCTestOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TrinEnemyCatGirlTest",
+      "type": "mob",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TrinElfFriendTestRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrinElfFriendTest",
+      "type": "mob",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -163,15 +250,19 @@
   "language_map": {
     "en_us": {
       "block.trintestmodone.trinmagicoretest": "Trin Magic Ore Test",
-      "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
       "item.trintestmodone.trinmagicdusttest": "Trin Magic Dust Test",
-      "item.trintestmodone.trinnpctest": "Trin NPC Test Spawn Egg",
+      "item.trintestmodone.trinenemycatgirltest": "Trin Enemy Cat Girl Test Spawn Egg",
+      "entity.trintestmodone.trinelffriendtest": "Trin Elf Friend Test",
       "item.trintestmodone.trinmagicoretoolstestpickaxe": "Trinmagicoretoolstest Pickaxe",
-      "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
       "item.trintestmodone.trinmagicoretoolstesthoe": "Trinmagicoretoolstest Hoe",
-      "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block",
+      "item.trintestmodone.trinelffriendtest": "Trin Elf Friend Test Spawn Egg",
       "item.trintestmodone.trinmagicoretoolstestsword": "Trinmagicoretoolstest Sword",
-      "entity.trintestmodone.trinnpctest": "Trin NPC Test"
+      "entity.trintestmodone.trinnpctest": "Trin NPC Test",
+      "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
+      "item.trintestmodone.trinnpctest": "Trin NPC Test Spawn Egg",
+      "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
+      "entity.trintestmodone.trinenemycatgirltest": "Trin Enemy Cat Girl Test",
+      "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block"
     }
   },
   "workspaceSettings": {
@@ -187,6 +278,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.trintestmodone",
     "lockBaseModFiles": false
   },

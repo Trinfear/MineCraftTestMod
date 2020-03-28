@@ -1,12 +1,16 @@
 {
   "block.trintestmodone.trinmagicoretest": "Trin Magic Ore Test",
-  "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
   "item.trintestmodone.trinmagicdusttest": "Trin Magic Dust Test",
-  "item.trintestmodone.trinnpctest": "Trin NPC Test Spawn Egg",
+  "item.trintestmodone.trinenemycatgirltest": "Trin Enemy Cat Girl Test Spawn Egg",
+  "entity.trintestmodone.trinelffriendtest": "Trin Elf Friend Test",
   "item.trintestmodone.trinmagicoretoolstestpickaxe": "Trinmagicoretoolstest Pickaxe",
-  "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
   "item.trintestmodone.trinmagicoretoolstesthoe": "Trinmagicoretoolstest Hoe",
-  "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block",
+  "item.trintestmodone.trinelffriendtest": "Trin Elf Friend Test Spawn Egg",
   "item.trintestmodone.trinmagicoretoolstestsword": "Trinmagicoretoolstest Sword",
-  "entity.trintestmodone.trinnpctest": "Trin NPC Test"
+  "entity.trintestmodone.trinnpctest": "Trin NPC Test",
+  "item.trintestmodone.trinmagicoretoolstestshovel": "Trinmagicoretoolstest Shovel",
+  "item.trintestmodone.trinnpctest": "Trin NPC Test Spawn Egg",
+  "item.trintestmodone.trinmagicoretoolstestaxe": "Trinmagicoretoolstest Axe",
+  "entity.trintestmodone.trinenemycatgirltest": "Trin Enemy Cat Girl Test",
+  "block.trintestmodone.trintestsaphireblock": "Trin Test Saphire Block"
 }
